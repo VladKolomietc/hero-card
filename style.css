@@ -82,7 +82,7 @@
     height: 45px;
     
 }
-.card_body_bottom:hover .like  {
+.card_body_bottom:hover .like_img  {
     transform: scale(1.2);
     
 }
@@ -173,7 +173,7 @@
     height: 45px;
     
 }
-.card_body_bottom2:hover .like2  {
+.card_body_bottom2:hover .like_img2  {
     transform: scale(1.2);
     
 }
@@ -264,7 +264,7 @@
     height: 45px;
     
 }
-.card_body_bottom3:hover .like3  {
+.card_body_bottom3:hover .like_img3  {
     transform: scale(1.2);
     
 }
