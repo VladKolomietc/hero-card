@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    
+ }
+ 
+ body {
+    
+    margin: 0 auto;
+    background: fixed linear-gradient(145deg, #ff3535 , #5d0808);
+    margin-top: 100px;
+ }
+ .card {
+    
+    margin: 0 auto;
+    box-shadow: inset 10px 10px 20px #ab1414,
+            inset -10px -10px 20px #ff3535;
+            border-radius: 5px 5px 5px 5px;
+    width: 300px ;
+    height: 400px;
+    background-color: crimson;
+    padding-top: 1px ;
+}
+.card_body {
+    margin: 0 auto;
+    width: 250px ;
+    height: 350px ;
+    background-color: rgb(173, 66, 87);
+    box-shadow: inset 10px 10px 20px #b61414,
+            inset -10px -10px 20px #ff3535;
+    margin-top: 24px;
+    border-radius: 10px;
+    
+    
+}
+.cardbody_top {    
+    
+    height: 300px ;
+    background-color: rgb(251, 63, 63);
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    box-shadow: inset 10px 10px 20px #a01010,
+            inset -10px -10px 20px #ff3535;
+    
+}
+.card_body_bottom {
+    padding-top: 1px;
+    height: 50px;
+    background-color: rgb(251, 87, 87);
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 10px 10px 20px #a20d0d,
+            inset -10px -10px 20px #ff3535;
+    margin: 0 auto;
+}
+.img {  
+    margin-left: 10px;
+    width: 200px;
+    height: 240px;
+    margin: 0 auto;
+}
+.text {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 1px red ,
+        -2px -2px 1px white ;
+    margin: 0 auto;
+    
+}
+.like {
+    border-radius: 5px 5px 5px 5px;
+    background: linear-gradient(145deg, #e64e4e, #ff5d5d);
+    box-shadow: inset 5px 5px 10px #b10808,
+            inset -5px -5px 10px #ff6464;
+    margin-top: 2px;
+    width: 45px ;
+    height: 45px;
+    background-color: brown;
+    margin: 0 auto;
+}
+.like_img {
+    
+    width: 45px ;
+    height: 45px;
+    margin: 0 auto;
+}
+.card_body_bottom:hover .like  {
+    transform: scale(1.2);
+    margin: 0 auto;
+}
+.like:active{
+    background: linear-gradient(145deg, #ec8c8c, #f0a6a6);
+
+}
