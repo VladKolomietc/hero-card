@@ -1,18 +1,17 @@
 
 * {
     font-family: 'Source Sans Pro', sans-serif;
-    
- }
- 
- body {
-    
     margin: 0 auto;
+   
+ }
+
+ .body {
+    height: 1000px;
     background: fixed linear-gradient(145deg, #ff3535 , #5d0808);
-    margin-top: 100px;
+    padding-top: 1px ;
  }
  .card {
-    
-    margin: 0 auto;
+    margin-top: 300px;
     box-shadow: inset 10px 10px 20px #ab1414,
             inset -10px -10px 20px #ff3535;
             border-radius: 5px 5px 5px 5px;
@@ -22,7 +21,7 @@
     padding-top: 1px ;
 }
 .card_body {
-    margin: 0 auto;
+    
     width: 250px ;
     height: 350px ;
     background-color: rgb(173, 66, 87);
@@ -30,14 +29,12 @@
             inset -10px -10px 20px #ff3535;
     margin-top: 24px;
     border-radius: 10px;
-    
-    
 }
 .cardbody_top {    
     
     height: 300px ;
     background-color: rgb(251, 63, 63);
-    margin: 0 auto;
+    
     border-radius: 10px 10px 0 0;
     box-shadow: inset 10px 10px 20px #a01010,
             inset -10px -10px 20px #ff3535;
@@ -50,13 +47,13 @@
     border-radius: 0 0 10px 10px;
     box-shadow: inset 10px 10px 20px #a20d0d,
             inset -10px -10px 20px #ff3535;
-    margin: 0 auto;
+    
 }
 .img {  
     margin-left: 10px;
-    width: 200px;
+    width: 230px;
     height: 240px;
-    margin: 0 auto;
+    
 }
 .text {
     color: rgb(0, 0, 0);
@@ -64,8 +61,8 @@
     font-size: 50px;
     text-align: center;
     text-shadow: 2px 2px 1px red ,
-        -2px -2px 1px white ;
-    margin: 0 auto;
+        -2px -2px 1px rgb(255, 179, 179) ;
+    
     
 }
 .like {
@@ -77,19 +74,201 @@
     width: 45px ;
     height: 45px;
     background-color: brown;
-    margin: 0 auto;
+    
 }
 .like_img {
     
     width: 45px ;
     height: 45px;
-    margin: 0 auto;
+    
 }
 .card_body_bottom:hover .like  {
     transform: scale(1.2);
-    margin: 0 auto;
+    
 }
 .like:active{
     background: linear-gradient(145deg, #ec8c8c, #f0a6a6);
+
+}
+/*2 картачка*/
+
+.body2 {
+    background: fixed linear-gradient(145deg, #4ef6ff , #04879e);
+    height: 1000px;
+    padding-top: 1px ;
+    
+}
+ .card2 {
+    
+    margin-top: 300px;
+    box-shadow: inset 10px 10px 20px #1497ab,
+            inset -10px -10px 20px #35fff5;
+            border-radius: 5px 5px 5px 5px;
+    width: 300px ;
+    height: 400px;
+    background-color: rgb(20, 220, 220);
+    padding-top: 1px ;
+}
+.card_body2 {
+    
+    width: 250px ;
+    height: 350px ;
+    background-color: rgb(66, 164, 173);
+    box-shadow: inset 10px 10px 20px #14a3b6,
+            inset -10px -10px 20px #35d7ff;
+    margin-top: 24px;
+    border-radius: 10px;
+    
+    
+}
+.cardbody_top2 {    
+    
+    height: 300px ;
+    background-color: rgb(63, 223, 251);
+    
+    border-radius: 10px 10px 0 0;
+    box-shadow: inset 10px 10px 20px #1086a0,
+            inset -10px -10px 20px #35e1ff;
+    
+}
+.card_body_bottom2 {
+    padding-top: 1px;
+    height: 50px;
+    background-color: rgb(87, 243, 251);
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 10px 10px 20px #0d8ea2,
+            inset -10px -10px 20px #35fffc;
+    
+}
+.img2 {  
+    margin-left: 10px;
+    width: 250px;
+    height: 230px;
+    
+}
+.text2 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(0, 255, 255) ,
+        -2px -2px 1px rgb(173, 246, 249) ;
+    
+    
+}
+.like2 {
+    border-radius: 5px 5px 5px 5px;
+    background: linear-gradient(145deg, #4ecde6, #5dffff);
+    box-shadow: inset 5px 5px 10px #0898b1,
+            inset -5px -5px 10px #64f7ff;
+    margin-top: 2px;
+    width: 45px ;
+    height: 45px;
+    background-color: rgb(42, 153, 165);
+    
+}
+.like_img2 {
+    
+    width: 45px ;
+    height: 45px;
+    
+}
+.card_body_bottom2:hover .like2  {
+    transform: scale(1.2);
+    
+}
+.like2:active{
+    background: linear-gradient(145deg, #dbf8ff, #92fbf4);
+
+}
+/*3 картачка*/
+
+.body3 {
+    background: fixed linear-gradient(145deg, #5b5b5b , #343434);
+    height: 1000px;
+    padding-top: 1px ;
+    
+}
+ .card3 {
+    
+    margin-top: 300px;
+    box-shadow: inset 10px 10px 20px #3e3e3e,
+            inset -10px -10px 20px #3a3a3a;
+            border-radius: 5px 5px 5px 5px;
+    width: 300px ;
+    height: 400px;
+    background-color: rgb(87, 87, 87);
+    padding-top: 1px ;
+}
+.card_body3 {
+    
+    width: 250px ;
+    height: 350px ;
+    background-color: rgb(62, 62, 62);
+    box-shadow: inset 10px 10px 20px #525252,
+            inset -10px -10px 20px #3a3a3a;
+    margin-top: 24px;
+    border-radius: 10px;
+    
+    
+}
+.cardbody_top3 {    
+    
+    height: 300px ;
+    background-color: rgb(52, 52, 52);
+    
+    border-radius: 10px 10px 0 0;
+    box-shadow: inset 10px 10px 20px #414141,
+            inset -10px -10px 20px #585858;
+    
+}
+.card_body_bottom3 {
+    padding-top: 1px;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 10px 10px 20px #4a4a4a,
+            inset -10px -10px 20px #252525;
+    
+}
+.img3 {  
+    margin-left: 20px;
+    width: 200px;
+    height: 230px;
+    
+}
+.text3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(52, 52, 52) ,
+        -2px -2px 1px rgb(40, 40, 40) ;
+    
+    
+}
+.like3 {
+    border-radius: 5px 5px 5px 5px;
+    background: linear-gradient(145deg, #6b6b6b, #3b3b3b);
+    box-shadow: inset 5px 5px 10px #3d3d3d,
+            inset -5px -5px 10px #5d5d5d;
+    margin-top: 2px;
+    width: 45px ;
+    height: 45px;
+    background-color: rgb(51, 51, 51);
+    
+}
+.like_img3 {
+    
+    width: 45px ;
+    height: 45px;
+    
+}
+.card_body_bottom3:hover .like3  {
+    transform: scale(1.2);
+    
+}
+.like3:active{
+    background: linear-gradient(145deg, #8b8b8b, #8f8f8f);
 
 }
